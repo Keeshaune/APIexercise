@@ -9,7 +9,7 @@ class Dog {
     }
 
     static get all() {
-        const dogs = dogsData.map( dog => new Dog(cat));
+        const dogs = dogsData.map( dog => new Dog(dog));
         return dogs;
     }
 
